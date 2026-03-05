@@ -123,6 +123,10 @@
       <geom name="zone" type="cylinder" size="0.04 0.001"
             rgba="0.2 0.8 0.2 0.4" contype="0" conaffinity="0" />
     </body>
+
+    <!-- Overhead camera angled to see the table past the arm -->
+    <camera name="overhead" pos="0.6 0.3 0.55"
+            xyaxes="-0.7682 0.6402 0 -0.4835 -0.5802 0.6554" fovy="60" />
   </worldbody>
 
   <!-- Weld constraint to hold cube in gripper (activated by script) -->
